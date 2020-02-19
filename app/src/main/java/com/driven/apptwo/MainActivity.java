@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Handle the times, as this will block the main android thread, it need it own thread
     //Handler is the one responsible to takecare of that new thread, under Runnable obj,
-    //Handler post, get the stopwatch start immediately, while the  postDelay update the watch
+    //Handler post, get the stopwatch start immediately, while the  postDelay update the watchgit
     private void runTimer(){
         final TextView clock = (TextView) findViewById(R.id.clock);
         final Handler handler = new Handler();
